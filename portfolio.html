@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://kit.fontawesome.com/0040e70b01.js" crossorigin="anonymous"></script>
+    </head>
+    <hr>
+        <header class="header">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <a href="#" class="logo"><span>Portfolio</span></a>
+            <nav class="navbar" id="sidemenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class='bx bxs-x-circle' onclick="closemenu()"></i>
+            </nav>
+            <i class='bx bx-dots-vertical-rounded' onclick="openmenu()"></i>
+        </header>
+        
+        <section class="home" id="home">
+            <div class="home-content">
+               
+                <br>
+                <p>Hello ! , My name is </p>
+                <h1>MOHIT BARADE</h1>
+                <h3>And I am a</h3>
+                <p>FRONTEND DEVELOPER
+                    
+                </p>
+                
+            </div>
+            <div class="home-img">
+                <img src="pic/42.png" alt="profile pic">
+            </div>
+        </section>
+     
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="pic/9.png" alt="animated pic">
+            </div>
+            <div class="about-text">
+                <h2>About<span>Me</span></h2>
+                <h4>Frontend-Developer</h4>
+                <p>Dedicated Web Developer enthusiast with proficiency in HTML,CSS,JS, REACT JS and bit of backend dev in SQL. I have strong , creative and analytical skills, a good team player.
+                </p>            
+            </div>
+        </section>
+        <hr>
+        <section id="skills">
+            <h1 class="sub-title"  >My<span> Skills</span></h1>
+           <div class="container">
+            <div class="box">
+                <div class="title1">
+                    <i class="fa-brands fa-html5" style="color:#f06529;"></i>
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="title1">
+                    <i class="fa-brands fa-css3-alt" style="color: #74C0FC;"></i>
+                    <h3>CSS</h3>
+                </div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="title1">
+                    <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <div class="title1">
+                    <i class="fa-brands fa-python" style="color: #12d62f;"></i>
+                    <h3>PYTHON</h3>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <div class="title1">
+                    <i class='bx bxl-mongodb' style='color:green'></i>
+                    <h3>MONGO DB</h3>
+                </div>
+   
+            </div>
+            <div class="box">
+                <div class="title1">
+                    <i class='bx bxl-c-plus-plus' style="color: #127bd6;"></i>
+                    <h3>C++</h3>
+                </div>
+       
+            </div>
+           </div>
+        </section>
+        <hr>
+        <section>
+            <div id="portfolio" id="project">
+                <div class="main-text" id="project">
+                    <h1 class="sub-title">My<span> Projects</span></h1>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="title1">
+                        <img src="pic/calculator.png" height="500" width="400" alt="calculator">
+                        <h3>CALCULATOR</h3>
+                    </div>
+                    <p>A basic calculator using <br>HTML CSS JS <br> <a href="https://github.com/mohiitt/CODSOFT-WEBDEV-INTERNSHIP/tree/master/Calculator" target="_blank" download class="btn-box btn1">view code</a></p>
+                </div>
+                
+                <div class="box">
+                    <div class="title1">
+                        <img src="pic/gym.png" height="520" alt="gym">
+                        <h3>GYM LANDING PAGE</h3>
+                    </div>
+                    <p>A basic landing page of a GYM Website using HTML AND CSS <br><a href="https://github.com/mohiitt/CODSOFT-WEBDEV-INTERNSHIP/tree/master/Landing_page" target="_blank" download class="btn-box btn1">view code</a></p>
+                </div>
+            
+                 
+        </section>
+        <hr>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact<span> Me</span></h2>
+                <h4>Let's work together</h4>
+                <p></p>
+                <div class="contact-list">
+                    <li><i class='bx bxl-gmail'></i> mohitbarade1@gmail.com</li>
+                    <li><i class='bx bxs-phone'></i>+91 9325183783</li>
+                </div>
+                <div class="social">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <i class="fa-brands fa-facebook fa-2xl" style="color:#3B5998;"></i>
+                    <i class="fa-brands fa-twitter fa-2xl" style="color: #74C0FC;"></i>
+                    <i class="fa-brands fa-instagram fa-2xl" style="color: brown;"></i>
+                </div>
+                <a href="file/RESUME_MOHIT.pdf",target="_blank" download class="btn-box btn1">Download Resume</a>
+            </div>
+            
+            <div class="contact-form">
+                <form name="submit-to-google-sheet" action="">
+                    <input type="" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <input type="" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea name="Message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                    <input type="submit" value="submit" class="send">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </section>
+    </body>
+</html>
